@@ -1,10 +1,11 @@
 # Program Service Record Kendaraan
 
 Program berbasis Java untuk mengelola data service record kendaraan bermotor (Mobil & Motor).
+Dibuat untuk memenuhi syarat sertifikasi LSP.
 
 ## Teknologi
-- **Bahasa**: Java (JDK 25)
-- **IDE**: Apache NetBeans 29
+- **Bahasa**: Java
+- **IDE**: NetBeans
 - **GUI**: Java Swing
 - **Database**: SQLite
 - **Library Eksternal**: sqlite-jdbc-3.45.3.0
@@ -39,6 +40,3 @@ com.servicerecord.util    → Utility (DatabaseManager, IDGenerator, Printable)
 | admin    | 123 |
 | 123  | 123 |
 | secretadmin  | 666 |
-
-## Author
-**Made Ranggadeva Ratryananda Sandhi**
