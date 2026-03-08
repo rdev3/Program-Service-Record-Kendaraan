@@ -1,2 +1,44 @@
-# Program-Service-Record-Kendaraan
-Program Service Record Kendaraan untuk memenuhi syarat sertifikasi LSP.
+# Sistem Manajemen Service Record Kendaraan
+
+Aplikasi desktop berbasis Java untuk mengelola data service record kendaraan bermotor (Mobil & Motor).
+
+## Teknologi
+- **Bahasa**: Java (JDK 25)
+- **IDE**: Apache NetBeans 29
+- **GUI**: Java Swing
+- **Database**: SQLite
+- **Library Eksternal**: sqlite-jdbc-3.45.3.0
+
+## Fitur
+- Login dengan autentikasi username & password
+- Pendaftaran kendaraan (Mobil & Motor) — CRUD lengkap
+- Pencatatan record servis kendaraan
+- Riwayat servis per kendaraan dengan fitur pencarian
+- Update status servis (Menunggu / Dalam Proses / Selesai)
+- Generate & export laporan ke file .txt
+
+## Struktur Package
+```
+com.servicerecord.model   → Entity class (Vehicle, Car, Motorcycle, ServiceRecord)
+com.servicerecord.db      → Database access (VehicleDB, ServiceRecordDB)
+com.servicerecord.service → Business logic (ServiceRecordManager)
+com.servicerecord.ui      → GUI (MainApp, Mainframe, LoginFrame, dll)
+com.servicerecord.util    → Utility (DatabaseManager, IDGenerator, Printable)
+```
+
+## Cara Instalasi
+1. Clone repository ini
+2. Buka dengan Apache NetBeans
+3. Tambahkan `sqlite-jdbc-3.45.3.0.jar` ke Libraries (klik kanan Libraries > Add JAR/Folder)
+4. Set Main Class: `com.servicerecord.ui.MainApp`
+5. Run (F6)
+
+## Akun Default
+| Username | Password | 
+|----------|----------|
+| admin    | admin123 |
+| teknisi  | teknisi123 |
+| manager  | manager123 |
+
+## Author
+**Made Ranggadeva Ratryananda Sandhi**
