@@ -1,6 +1,6 @@
-# Sistem Manajemen Service Record Kendaraan
+# Program Service Record Kendaraan
 
-Aplikasi desktop berbasis Java untuk mengelola data service record kendaraan bermotor (Mobil & Motor).
+Program berbasis Java untuk mengelola data service record kendaraan bermotor (Mobil & Motor).
 
 ## Teknologi
 - **Bahasa**: Java (JDK 25)
@@ -11,7 +11,7 @@ Aplikasi desktop berbasis Java untuk mengelola data service record kendaraan ber
 
 ## Fitur
 - Login dengan autentikasi username & password
-- Pendaftaran kendaraan (Mobil & Motor) — CRUD lengkap
+- Pendaftaran kendaraan (Mobil & Motor) — CRUD
 - Pencatatan record servis kendaraan
 - Riwayat servis per kendaraan dengan fitur pencarian
 - Update status servis (Menunggu / Dalam Proses / Selesai)
@@ -31,14 +31,14 @@ com.servicerecord.util    → Utility (DatabaseManager, IDGenerator, Printable)
 2. Buka dengan Apache NetBeans
 3. Tambahkan `sqlite-jdbc-3.45.3.0.jar` ke Libraries (klik kanan Libraries > Add JAR/Folder)
 4. Set Main Class: `com.servicerecord.ui.MainApp`
-5. Run (F6)
+5. Run
 
 ## Akun Default
 | Username | Password | 
 |----------|----------|
-| admin    | admin123 |
-| teknisi  | teknisi123 |
-| manager  | manager123 |
+| admin    | 123 |
+| 123  | 123 |
+| secretadmin  | 666 |
 
 ## Author
 **Made Ranggadeva Ratryananda Sandhi**
