@@ -1,5 +1,7 @@
 # Program Service Record Kendaraan
 
+![Halaman Data Kendaraan](assets/registvehicle.png)
+
 Program berbasis Java untuk mengelola data service record kendaraan bermotor (Mobil & Motor).
 Dibuat untuk memenuhi syarat sertifikasi LSP.
 
