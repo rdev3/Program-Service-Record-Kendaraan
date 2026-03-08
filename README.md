@@ -1,8 +1,4 @@
 # Program Service Record Kendaraan
-
-![Halaman Data Kendaraan](assets/registvehicle.png)
-![Halaman Service Record](assets/servicerecord.png)
-
 Program berbasis Java untuk mengelola data service record kendaraan bermotor (Mobil & Motor).
 Dibuat untuk memenuhi syarat sertifikasi LSP.
 
@@ -20,6 +16,9 @@ Dibuat untuk memenuhi syarat sertifikasi LSP.
 - Riwayat servis per kendaraan dengan fitur pencarian
 - Update status servis (Menunggu / Dalam Proses / Selesai)
 - Generate & export laporan ke file .txt
+
+![Halaman Data Kendaraan](assets/registvehicle.png)
+![Halaman Service Record](assets/servicerecord.png)
 
 ## Struktur Package
 ```
